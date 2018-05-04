@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lcz</groupId>
+  <artifactId>RegisterWeb</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <dependencies>
+  	<!-- 用来作测试的jar包 -->
+  	<dependency>
+	 	<groupId>junit</groupId>
+	 	<artifactId>junit</artifactId>
+	 	<version>3.8.1</version>
+	 </dependency>
+	 <!-- 连接池的jar包 -->
+	<dependency>
+	  	<groupId>commons-dbcp</groupId>
+	  	<artifactId>commons-dbcp</artifactId>
+	  	<version>1.4</version>
+	</dependency>
+	<dependency>
+   		<groupId>mysql</groupId>
+     	<artifactId>mysql-connector-java</artifactId>
+     	<version>5.1.25</version>
+		</dependency> 
+	<!-- JavaMail相关依赖 -->
+	<dependency>
+		<groupId>javax.mail</groupId>
+		<artifactId>mail</artifactId>
+		<version>1.4.7</version>
+	</dependency>
+  </dependencies>
+</project>
